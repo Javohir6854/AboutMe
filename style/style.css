@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.nav {
+    background-color: black;
+    padding: 15px 0;
+    overflow: hidden;
+}
+
+.nav__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__logo {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #fff;
+}
+.menu__img, .close__img{
+    width: 50px;
+    height: 50px;
+}
+#menu{
+    display: none;
+}
+.menu__img, .close__img{
+    display: none;
+}
+nav{
+    overflow-x: hidden;
+}
+.nav__link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    margin-left: 50px;
+}
+
+/* Nav end */
+/* Intro start */
+.intro {
+    background-image: url(../images/header_bg.png);
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #000000;
+    margin-bottom: 145px;
+}
+
+.intro__link {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #000000;
+    text-decoration: none;
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 237px;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Intro end */
+/* About start */
+.about {
+    background-color: #0E1C25;
+    padding-top: 30px;
+    padding-bottom: 112px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.about__box {
+    margin-top: 50px;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about__card {
+    max-width: 466px;
+    width: 100%;
+}
+
+.about__title {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin-bottom: 64px;
+}
+
+.about__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-align: justify;
+}
+
+/* About end */
+/* Work start */
+.work {
+    background: #5C6B81;
+    padding-top: 43px;
+    padding-bottom: 70px;
+}
+
+.work__box {
+    margin-top: 62px;
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+}
+.work__card1 {
+    background: #B12B06;
+    border-radius: 10px;
+    width: 312px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    align-items: center;
+    flex-shrink: 0;
+}
+.work__card2 {
+    background: #B12B06;
+    border-radius: 10px;
+    width: 312px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    align-items: center;
+    flex-shrink: 0;
+}
+.work__card {
+    background: #B12B06;
+    border-radius: 10px;
+    width: 312px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    align-items: center;
+    flex-shrink: 0;
+}
+.work__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin: 20px 0;
+}
+
+.work__text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 264px;
+    margin-bottom: 27px;
+}
+
+.work__link {
+    background: #FFFFFF;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    padding: 8px 25px 9px 24px;
+}
+
+/* Work end */
+/* Footer start */
+.footer {
+    background-color: #000000;
+    padding-top: 47px;
+    padding-bottom: 55px;
+}
+.footer__title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 36px;
+}
+.footer__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+/* Footer end */
